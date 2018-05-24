@@ -68,7 +68,7 @@ h1 {
   line-height: 1.2;
 }
 
-header .flex.container {
+header .flex-container {
   display: flex;
   justify-content: flex-end;
 }
