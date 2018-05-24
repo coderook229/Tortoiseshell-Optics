@@ -1,5 +1,9 @@
+/* Univeral Styles */
+
 html {
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
+  background-color: white;
 }
 
 body {
@@ -11,17 +15,60 @@ body {
   margin: auto;
 }
 
-.logo {
-  height: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 1rem;
-}
+/* Header Section */
 
 header {
   height: 30rem;
   padding-top: 1rem;
-  background-image: url("resources/css/images/glasses-bg.png");
+  background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  background-color: cadetblue;
+  color: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+nav ul {
+  margin-right: 1rem;
+}
+
+nav li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.banner {
+  display: inline-block;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+header .flex.container {
+  display: flex;
+  justify-content: flex-end;
 }
