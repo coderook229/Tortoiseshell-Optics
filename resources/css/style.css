@@ -1,0 +1,27 @@
+html {
+  font-size: 18px;
+}
+
+body {
+    line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.logo {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+header {
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url("resources/css/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
