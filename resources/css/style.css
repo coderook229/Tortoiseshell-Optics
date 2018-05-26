@@ -76,16 +76,25 @@ header .flex-container {
 
 .icon {
 display: flex;
-justify-content: space-around;
+justify-content: center;
 margin-top: 3rem;
 }
 
-icon .paper {
+.icon img {
+  width: 100%;
+  margin-right: 6rem;
+}
+
+.icon .paper {
   width: 3.5rem;
 }
 
 .icon .ruler {
   width: 6rem;
+}
+
+.icon .truck {
+  width: 4rem;
 }
 
 .icon span {
