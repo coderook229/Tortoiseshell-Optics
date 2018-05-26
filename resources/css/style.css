@@ -60,7 +60,7 @@ nav li {
   margin-top: 10rem;
   padding: 1.5rem 5rem;
   background-color: white;
-  margin-right: 6rem;
+  margin-right: 5rem;
 }
 
 h1 {
@@ -74,7 +74,28 @@ header .flex-container {
   justify-content: flex-end;
 }
 
-.info {
+.icon {
+display: flex;
+justify-content: space-around;
+margin-top: 3rem;
+}
+
+icon .paper {
+  width: 3.5rem;
+}
+
+.icon .ruler {
+  width: 6rem;
+}
+
+.icon span {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+}
+
+.information {
   display: flex;
   justify-content: space-around;
   height: 8rem;
@@ -82,17 +103,24 @@ header .flex-container {
   margin-right: 6rem;
 }
 
-.info .paper {
-  width: 3.5rem;
-}
-
-.info .ruler {
-  width: 6rem;
-}
-
-span {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.info span {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-flex;
+  justify-content: space-around;
   align-items: center;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-top: 3rem;
+}
+
+.info p {
+  margin-top: 1rem;
+}
+
+footer {
+
 }
