@@ -76,8 +76,9 @@ header .flex-container {
 
 .icon {
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 margin-top: 3rem;
+padding: 0 13rem;
 }
 
 .icon img {
@@ -131,5 +132,51 @@ text-align: center;
 }
 
 footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
 
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    height: 22rem;
+}
+
+ .banner {
+   margin-top: 5rem;
+   margin-right: 2rem;
+   padding: 0.75rem 4rem;
+ }
+
+ h1 {
+   font-size: 1.33rem;
+ }
+}
+
+@media only screen and (max-width: 470px) {
+  .header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .banner {
+    padding: 1rem 0;
+  }
+
+  h1 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  .info p {
+    font-size: 0.77rem;
+  }
 }
