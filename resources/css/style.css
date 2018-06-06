@@ -182,7 +182,11 @@ footer img {
    display: block;
 }
 
-img span {
+ul {
+  display: none;
+}
+
+.logo span {
   display: none;
 }
 
