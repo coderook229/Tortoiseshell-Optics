@@ -179,7 +179,11 @@ footer img {
     display: block;
 }
 .menu {
-   display: none;
+   display: block;
+}
+
+img span {
+  display: none;
 }
 
 
